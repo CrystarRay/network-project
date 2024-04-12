@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+</head>
+<body>
+    <h1>Checkout</h1>
+    <form action="/checkout" method="post">
+        <p>Please confirm your purchase.</p>
+        <p><strong>Total Paid: ${{ "%.2f" | format(total_price) }}</strong></p>
+        <button type="submit">Confirm</button>
+    </form>
+</body>
+</html>

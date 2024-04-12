@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Available Products</title>
+</head>
+<body>
+    <h1>Available Products</h1>
+    <form action="/add" method="post">
+        <div>
+            <span>Apple - $0.99</span>
+            <button type="submit" name="item" value="Apple">Add to Cart</button>
+        </div>
+        <div>
+            <span>Banana - $0.59</span>
+            <button type="submit" name="item" value="Banana">Add to Cart</button>
+        </div>
+        <div>
+            <span>Carrot - $0.30</span>
+            <button type="submit" name="item" value="Carrot">Add to Cart</button>
+        </div>
+    </form>
+    <!-- Review Shopping Cart Button -->
+    <form action="/cart" method="get" style="margin-top: 20px;">
+        <button type="submit">Review Shopping Cart</button>
+    </form>
+</body>
+</html>
