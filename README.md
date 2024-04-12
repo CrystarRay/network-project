@@ -10,11 +10,14 @@ Setup Instructions:
 2. Navigate to the root directory of the project using a terminal or cmd.
 
 3. start a Virtual environment run following command:
-python -m venv venv
+```python -m venv venv```
 then run
-venv\Scripts\activate
 
-4. install flask use pip command
+```venv\Scripts\activate``` on windows
+
+```source venv/bin/activate``` on Linux
+
+5. install flask use pip command
 pip install Flask
 
 5.now you can start the server run following command：
