@@ -1,4 +1,4 @@
-BUILD DOCUMENT
+README
 ==============
 
 Prerequisites:
@@ -34,4 +34,3 @@ Operating Instructions:
 - Click 'Continue Shopping' to go back to the products page.
 - After checkout, you will see a 'Checkout Successful' page with your order total.
 
-==============
